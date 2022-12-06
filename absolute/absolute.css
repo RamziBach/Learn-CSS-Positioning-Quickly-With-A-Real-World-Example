@@ -1,0 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.item-1 {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  /* bottom: 0px; */
+  /* left: 0px; */
+  z-index: -1;
+}
